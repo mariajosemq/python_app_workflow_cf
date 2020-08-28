@@ -1,6 +1,6 @@
 ---
 applications:
-- name: workflowcf
+- name: workflows_cf
   memory: 64M
-  command: python workflowcf.py
+  command: python workflows_cf.py
   buildpack: https://github.com/cloudfoundry/buildpack-python.git
