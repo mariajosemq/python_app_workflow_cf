@@ -60,4 +60,4 @@ def errors():
   json.loads(request.get_data())
   return jsonify(status=200) 
  
-app.run(host='0.0.0.0',  port=port) #importante indicar host para deployment en plataforma
+app.run(host='0.0.0.0',  port=port) # host for platform deployment
